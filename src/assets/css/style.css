@@ -1,0 +1,167 @@
+body {
+    background-color: black !important;
+}
+
+/* Define el estilo para las imágenes de portada */
+.portada {
+    top:0;
+    width: 100%;
+    height:100vh;
+    position: relative;
+    z-index: -1;
+    /* Agrega esta línea */
+
+}
+
+.PortadaInfo {
+    text-align: center;
+    /* Establece un color de fondo semitransparente */
+    color: white;
+    /* Establece el color de fuente en blanco */
+    position: absolute;
+    /* Hace que el elemento sea absoluto y lo saca del flujo del documento */
+    top: 50%;
+    /* Centra el elemento verticalmente */
+    left: 50%;
+    /* Centra el elemento horizontalmente */
+    transform: translate(-50%, -50%);
+    /* Traslada el elemento 50% hacia arriba y 50% hacia la izquierda */
+   
+    display: grid;
+    justify-items: center;
+}
+
+/* Define el estilo para el contenedor principal */
+.container-sm {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.options {
+    margin-top: 2.3rem !important;
+}
+
+.options h1 {
+    display: grid;
+    justify-content: center;
+    color: azure;
+}
+
+/* Define el estilo para el contenedor de información */
+.Info,
+.Contact {
+    /* background-color: #f5f5f5;*/
+    margin-top: 1rem;
+    padding: 50px;
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+.Info{
+    text-align: justify;
+}
+
+
+/* Define el estilo para el título principal */
+.CenterInfo h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Contact h1 {
+    color: azure;
+    text-align: center;
+}
+
+.form-group {
+    padding-bottom: 0.6rem;
+}
+
+/* Define el estilo para el botón de "Conoce más" */
+.Info .btn {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.Contact .btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    width: 200px;
+}
+
+.form-control {
+    color: #bbb8b8 !important;
+    background-color: #00000082 !important;
+}
+
+.typing  {
+    text-align: justify;
+
+    
+    animation: typing 3s steps(30, end);
+  }
+  
+  @keyframes typing {
+    from { width: 50% }
+    to { width:  100%}
+  }
+  
+ 
+  
+  .smoke-visible {
+    /* Mostramos el elemento y le aplicamos una animación */
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+  
+  }
+  
+  .options h1 {
+    position: relative;
+    color: white;
+  }
+  
+  .options h1::after {
+    content: "";
+    position: relative;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, #008000a3, #ffff0087, #ff0000b5);
+   
+  }
+  .navbar {
+    height: 4.5rem;
+    background-color: black !important;
+ 
+    border-bottom: 4px solid rgb(255, 0, 0);
+  }
+  .boton-psicodelico {
+    display: inline-block;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 0.25em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0 0.25em rgb(33, 123, 43);
+  transition: background-color 0.2s ease-in-out;
+  will-change: background-color;
+  }
+  
+  .boton-psicodelico:hover {
+    background-color: #008000a3;
+    color: white
+  }
+  
+  .boton-psicodelico:active {
+    background-color: rgb(0, 128, 0);
+  color: white;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+  transform: translate(0, 0.125em);
+  }

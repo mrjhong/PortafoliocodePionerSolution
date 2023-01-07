@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b505021.css",
-    "main.js": "/static/js/main.c5782e3c.js",
-    "index.html": "/index.html",
-    "main.3b505021.css.map": "/static/css/main.3b505021.css.map",
-    "main.c5782e3c.js.map": "/static/js/main.c5782e3c.js.map"
+    "main.css": "/weed-commerce/static/css/main.3b505021.css",
+    "main.js": "/weed-commerce/static/js/main.c5782e3c.js",
+    "index.html": "/weed-commerce/index.html",
+    "main.3b505021.css.map": "/weed-commerce/static/css/main.3b505021.css.map",
+    "main.c5782e3c.js.map": "/weed-commerce/static/js/main.c5782e3c.js.map"
   },
   "entrypoints": [
     "static/css/main.3b505021.css",
